@@ -153,6 +153,9 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor \
     libshim_camera
 
+PRODUCT_COPY_FILES += \
+    prebuilts/vndk/v28/arm/arch-arm-armv7-a-neon/shared/vndk-core/android.frameworks.sensorservice@1.0.so:vendor/lib/android.frameworks.sensorservice@1.0-v28.so
+
 $(call inherit-product, vendor/ANXCamera/config.mk)
 
 # Context Hub
