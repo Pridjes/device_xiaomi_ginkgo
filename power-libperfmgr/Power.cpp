@@ -15,7 +15,7 @@
  */
 
 #define ATRACE_TAG (ATRACE_TAG_POWER | ATRACE_TAG_HAL)
-#define LOG_TAG "android.hardware.power@1.3-service.laurel_sprout-libperfmgr"
+#define LOG_TAG "android.hardware.power@1.3-service.ginkgo-libperfmgr"
 
 #include <android-base/file.h>
 #include <android-base/logging.h>
